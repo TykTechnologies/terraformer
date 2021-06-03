@@ -128,7 +128,23 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/cobra v1.1.1
 	github.com/spf13/pflag v1.0.5
-	github.com/tencentcloud/tencentcloud-sdk-go v3.0.233+incompatible
+	github.com/stripe/stripe-go/v72 v72.47.0
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/as v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cbs v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cdb v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cdn v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cfs v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/clb v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.173
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cvm v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/es v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/gaap v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/mongodb v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/redis v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/scf v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/ssl v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tcaplusdb v0.0.0-20210602003728-41e03f14c6ed
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/vpc v0.0.0-20210602003728-41e03f14c6ed
 	github.com/tencentyun/cos-go-sdk-v5 v0.7.19
 	github.com/vultr/govultr v0.5.0
 	github.com/yandex-cloud/go-genproto v0.0.0-20200722140432-762fe965ce77
@@ -146,3 +162,5 @@ require (
 )
 
 replace gopkg.in/jarcoal/httpmock.v1 => github.com/jarcoal/httpmock v1.0.5
+
+replace github.com/tencentcloud/tencentcloud-sdk-go => github.com/tencentcloud/tencentcloud-sdk-go v1.0.175
