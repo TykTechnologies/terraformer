@@ -64,5 +64,7 @@ func (p *StripeProvider) GetName() string {
 }
 
 func (p *StripeProvider) GetSupportedService() map[string]terraformutils.ServiceGenerator {
-	return map[string]terraformutils.ServiceGenerator{}
+	return map[string]terraformutils.ServiceGenerator{
+		"product": &ProductGenerator{},
+	}
 }
